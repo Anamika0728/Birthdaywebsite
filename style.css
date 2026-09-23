@@ -8,7 +8,11 @@ html {
 
 body {
     margin: 0;
-    background: #f5ebdd;
+    background-color: #f5ebdd;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #193b35;
     font-family: Georgia, "Times New Roman", serif;
 }
