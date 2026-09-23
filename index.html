@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Something For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PASSWORD SCREEN -->
+    <section id="password-screen" class="screen">
+        <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+        <h1>THIS IS MADE FOR YOUR BROWN EYES ONLY SOOOO....</h1>
+
+        <p class="subtitle">
+            The password is the name of a special place,
+            where everything started...
+        </p>
+
+        <input
+            type="password"
+            id="password-input"
+            placeholder="Enter the password"
+        >
+
+        <button id="password-button">
+            Enter →
+        </button>
+
+        <p id="password-error"></p>
+    </section>
+
+
+    <!-- BIRTHDAY CANDLE -->
+    <section id="birthday-screen" class="screen hidden">
+
+        <p class="eyebrow">ENTRY 01</p>
+
+        <h1>HAPPY BIRTHDAY!!!</h1>
+
+        <p class="birthday-line">
+            And just like that, another chapter begins.
+        </p>
+
+        <p class="subtitle">
+            Now, make a wish.
+        </p>
+
+        <div id="candle-area">
+            <div id="flame">🔥</div>
+            <div class="candle"></div>
+        </div>
+
+        <div id="after-candle" class="hidden">
+
+            <p class="big-message">
+                Wish made. ✨
+            </p>
+
+            <button id="continue-button">
+                Let's go →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN WEBSITE -->
+    <main id="main-content" class="hidden">
+
+
+        <!-- OUR PHOTOS -->
+        <section class="page-section">
+
+            <p class="eyebrow">THE ARCHIVE</p>
+
+            <h2>
+                A few pieces of us.
+            </h2>
+
+            <div class="photo-grid">
+
+                <div class="memory">
+                    <img src="images/photo1.jpg" alt="Our photo">
+                    <p>YOUR CAPTION HERE</p>
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo2.jpg" alt="Our photo">
+                    <p>YOUR CAPTION HERE</p>
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo3.jpg" alt="Our photo">
+                    <p>YOUR CAPTION HERE</p>
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo4.jpg" alt="Our photo">
+                    <p>YOUR CAPTION HERE</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MEMORIES -->
+        <section class="page-section memories">
+
+            <p class="eyebrow">OUR MEMORIES</p>
+
+            <h2>
+                Little moments I want to keep.
+            </h2>
+
+            <div class="memory-list">
+
+                <div>
+                    <span>01</span>
+                    WRITE A MEMORY HERE
+                </div>
+
+                <div>
+                    <span>02</span>
+                    WRITE A MEMORY HERE
+                </div>
+
+                <div>
+                    <span>03</span>
+                    WRITE A MEMORY HERE
+                </div>
+
+                <div>
+                    <span>04</span>
+                    WRITE A MEMORY HERE
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- THINGS WE WANT TO DO -->
+        <section class="page-section adventures">
+
+            <p class="eyebrow">NEXT ADVENTURES</p>
+
+            <h2>
+                Things we still have to do.
+            </h2>
+
+            <div class="adventure-list">
+
+                <div>
+                    <span>01</span>
+                    PLACE OR THING WE WANT TO DO
+                </div>
+
+                <div>
+                    <span>02</span>
+                    ANOTHER ADVENTURE
+                </div>
+
+                <div>
+                    <span>03</span>
+                    SOMETHING SILLY
+                </div>
+
+                <div>
+                    <span>04</span>
+                    SOMETHING WE HAVE TO EXPERIENCE
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BIRTHDAY MESSAGE -->
+        <section class="page-section final-section">
+
+            <p class="eyebrow">FOR YOU</p>
+
+            <h2>
+                HAPPY BIRTHDAY, [NAME] ❤️
+            </h2>
+
+            <p class="final-text">
+                WRITE YOUR BIRTHDAY MESSAGE HERE.
+            </p>
+
+            <p class="final-text">
+                WRITE YOUR WISHES FOR THE YEARS AHEAD HERE.
+            </p>
+
+            <p class="final-text">
+                WRITE ONE LAST LITTLE THOUGHT HERE.
+            </p>
+
+            <p class="signature">
+                LOVE, [YOUR NAME]
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
