@@ -8,12 +8,12 @@ html {
 
 body {
     margin: 0;
-    background-color: #f5ebdd;
+    background-color: #FFF6DC;
     background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #193b35;
+    color: #704C2A;
     font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -40,7 +40,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 11px;
     letter-spacing: 3px;
-    color: #c86b48;
+    color: #D98E32;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -73,10 +73,10 @@ h2 {
     padding: 14px 18px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border: 1px solid #193b35;
+    border: 1px solid #68734A;
     border-radius: 30px;
-    background: rgba(245, 235, 221, 0.8);
-    color: #193b35;
+    background: rgba(255, 246, 220, 0.8);
+    color: #704C2A;
     font-family: Georgia, serif;
     font-size: 16px;
     text-align: center;
@@ -84,14 +84,14 @@ h2 {
 }
 
 #password-input::placeholder {
-    color: #193b35;
+    color: #704C2A;
     opacity: 0.5;
 }
 
 button {
     border: none;
-    background: #c86b48;
-    color: #f5ebdd;
+    background: #E8B923;
+    color: #704C2A;
     padding: 13px 24px;
     border-radius: 30px;
     font-family: Arial, sans-serif;
@@ -100,7 +100,7 @@ button {
 }
 
 #password-error {
-    color: #c86b48;
+    color: #D98E32;
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
@@ -137,7 +137,7 @@ button {
     transform: translateX(-50%);
     width: 55px;
     height: 115px;
-    background: #8fa66a;
+    background: #A7AD78;
     border-radius: 8px;
 }
 
@@ -182,7 +182,7 @@ button {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: rgba(120, 120, 120, 0.35);
+    background: rgba(112, 76, 42, 0.35);
     opacity: 0;
     transform: translateX(-50%) scale(0.5);
 }
@@ -224,7 +224,7 @@ button {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-bottom: 1px solid rgba(25, 59, 53, 0.15);
+    border-bottom: 1px solid rgba(112, 76, 42, 0.15);
 }
 
 .body-text {
@@ -243,9 +243,9 @@ button {
 }
 
 .memory {
-    background: white;
+    background: #FFFDF5;
     padding: 12px;
-    box-shadow: 0 8px 25px rgba(25, 59, 53, 0.08);
+    box-shadow: 0 8px 25px rgba(112, 76, 42, 0.08);
 }
 
 .memory img {
@@ -266,12 +266,12 @@ button {
 /* MEMORIES */
 
 .memories {
-    background: #193b35;
-    color: #f5ebdd;
+    background: #68734A;
+    color: #FFF6DC;
 }
 
 .memories .eyebrow {
-    color: #d9a441;
+    color: #E8B923;
 }
 
 .memory-list {
@@ -282,7 +282,7 @@ button {
 }
 
 .memory-list div {
-    border-bottom: 1px solid rgba(245, 235, 221, 0.25);
+    border-bottom: 1px solid rgba(255, 246, 220, 0.25);
     padding: 18px 5px;
     font-size: 18px;
     line-height: 1.4;
@@ -293,7 +293,7 @@ button {
     font-family: Arial, sans-serif;
     font-size: 11px;
     letter-spacing: 2px;
-    color: #d9a441;
+    color: #E8B923;
     margin-bottom: 8px;
 }
 
@@ -301,7 +301,7 @@ button {
 /* ADVENTURES */
 
 .adventures {
-    background: #e7dfcf;
+    background: #F1D98A;
 }
 
 .adventure-list {
@@ -313,7 +313,7 @@ button {
 
 .adventure-list div {
     padding: 20px;
-    background: #f5ebdd;
+    background: #FFF6DC;
     font-size: 17px;
     line-height: 1.4;
 }
@@ -323,7 +323,7 @@ button {
     font-family: Arial, sans-serif;
     font-size: 11px;
     letter-spacing: 2px;
-    color: #c86b48;
+    color: #D98E32;
     margin-bottom: 8px;
 }
 
@@ -332,12 +332,12 @@ button {
 
 .final-section {
     min-height: 100vh;
-    background: #c86b48;
-    color: #f5ebdd;
+    background: #E8B923;
+    color: #704C2A;
 }
 
 .final-section .eyebrow {
-    color: #f5ebdd;
+    color: #704C2A;
 }
 
 .final-text {
